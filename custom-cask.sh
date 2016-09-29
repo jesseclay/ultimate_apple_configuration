@@ -23,6 +23,7 @@ brew cask install skype
 brew cask install google-hangouts
 brew cask install 1password
 brew cask install zoomus
+brew cask install rescuetime
 
 # Fun applications
 brew cask install spotify
