@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# install hombrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 # start with brew packages
 brew install npm
 brew install bash
@@ -19,6 +22,7 @@ brew cask install dropbox
 brew cask install skype
 brew cask install google-hangouts
 brew cask install 1password
+brew cask install zoomus
 
 # Fun applications
 brew cask install spotify
